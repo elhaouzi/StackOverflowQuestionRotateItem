@@ -14,8 +14,7 @@ find_package(Qt5 REQUIRED COMPONENTS Core Gui Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        MainWindow.cpp MainWindow.h
-        MyView.cpp MyView.h
+        MyView.h
 )
 
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
